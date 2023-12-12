@@ -31,6 +31,7 @@ const Navbar = () => {
             <ScrollView horizontal style={styles.scroll}>
                 <AppNavbar to='/'>MyApp</AppNavbar>
                 <AppNavbar to='/signin'>SignIn</AppNavbar>
+                <AppNavbar to='/login'>Login</AppNavbar>
             </ScrollView>
         </View>
     )
